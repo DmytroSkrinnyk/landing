@@ -608,4 +608,11 @@ button {
         font-size: 12px;
         color: #5D6970; }
 
+.footer {
+  padding: 42px 0 32px;
+  background: #E7ECFF;
+  margin-top: -25px; }
+  .footer_top {
+    border-bottom: solid 1px #CDD1D4; }
+
 /*# sourceMappingURL=main.css.map */
