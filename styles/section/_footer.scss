@@ -12,6 +12,15 @@
         justify-content: space-between;
         align-items: baseline;
 
+        @media screen and (max-width:1150px) {
+            justify-content: space-around;
+        }
+        @media screen and (max-width:790px) {
+            align-items: center;
+            flex-direction: column;
+            gap: 25px;
+        }
+
         &_btn{
             width: 109px;
             height: 26px;
@@ -23,6 +32,11 @@
             color: #ffffff
             ;
         }
+        &_span{
+            @media screen and (max-width:790px) {
+                order: 1;
+            }
+        }
     }
 
     &_bottom{
@@ -32,6 +46,10 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        @media screen and (max-width:790px) {
+            flex-direction: column;
+            gap: 15px;
+        }
         
         &_list{
             display: flex;

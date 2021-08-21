@@ -584,9 +584,20 @@ button {
     height: 877px;
     background-position: left center;
     background-repeat: no-repeat; }
+    @media screen and (max-width: 1350px) {
+      .features_brooke {
+        background-position: center center;
+        margin: auto; } }
+    @media screen and (max-width: 790px) {
+      .features_brooke {
+        width: 85%; } }
   .features_content {
     width: 632px;
     max-width: 100%; }
+    @media screen and (max-width: 790px) {
+      .features_content {
+        width: 85%;
+        margin: auto; } }
     .features_content_title {
       font-weight: 500;
       font-size: 36px;
@@ -629,6 +640,9 @@ button {
         position: relative;
         padding-bottom: 43px;
         padding-top: 32px; }
+        @media screen and (max-width: 790px) {
+          .features_content_list_item {
+            margin: auto; } }
         .features_content_list_item::before {
           content: '';
           position: absolute;
@@ -668,6 +682,20 @@ button {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline; }
+    @media screen and (max-width: 1150px) {
+      .footer_top {
+        -ms-flex-pack: distribute;
+            justify-content: space-around; } }
+    @media screen and (max-width: 790px) {
+      .footer_top {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 25px; } }
     .footer_top_btn {
       width: 109px;
       height: 26px;
@@ -677,6 +705,11 @@ button {
       font-size: 12px;
       text-align: center;
       color: #ffffff; }
+    @media screen and (max-width: 790px) {
+      .footer_top_span {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1; } }
   .footer_bottom {
     padding: 24px 0 32px;
     display: -webkit-box;
@@ -694,6 +727,13 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+    @media screen and (max-width: 790px) {
+      .footer_bottom {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 15px; } }
     .footer_bottom_list {
       display: -webkit-box;
       display: -ms-flexbox;

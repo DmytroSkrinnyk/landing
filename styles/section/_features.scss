@@ -14,11 +14,23 @@
         height: 877px;
         background-position: left center;
         background-repeat: no-repeat;
+
+        @media screen and (max-width:1350px) {
+            background-position: center center;
+            margin: auto;
+        }
+        @media screen and (max-width:790px) {
+            width: 85%;
+        }
     }
 
     &_content{
         width: 632px;
         max-width: 100%;
+        @media screen and (max-width:790px) {
+            width: 85%;
+            margin: auto;
+        }
 
         &_title{
             font-weight: 500;
@@ -57,6 +69,9 @@
                 position: relative;
                 padding-bottom: 43px;
                 padding-top: 32px;
+                @media screen and (max-width:790px) {
+                    margin: auto;
+                }
 
                 &::before{
                     content: '';
