@@ -11,6 +11,10 @@
     &_theme{
         width: 540px;
         max-width: 100%;
+
+        @media screen and (max-width:790px) {
+            width: 85%;
+        }
         
         &_title{
             font-weight: 500;
@@ -48,13 +52,21 @@
         &_list{
             padding-top: 80px;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
             gap: 30px;
+            
 
             &_item{
                 position: relative;
                 padding-top: 50px;
+                @media screen and (max-width:790px) {
+                    width: 255px;
+                    max-width: 100%;
+                    justify-content: space-around;
+                    margin: auto;
+                }
 
                     &:before{
                     content: '';

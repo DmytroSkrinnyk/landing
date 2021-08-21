@@ -7,6 +7,10 @@
     background-position: right center;
     background-repeat: no-repeat;
 
+    @media screen and (max-width:790px) {
+        background-position: left center;
+    }
+
     &_content{
         width: 539px;
         max-width: 100%;
@@ -14,6 +18,10 @@
         flex-direction: column;
         justify-content: flex-start;
         margin-left: 179px;
+
+        @media screen and (max-width:790px) {
+            margin: auto;
+        }
 
         &_title{
             font-size: 50px;
@@ -77,12 +85,42 @@
     justify-content: space-between;
     align-items: center;
 
+    @media screen and (max-width:1150px) {
+        justify-content: space-around;
+    }
+    @media screen and (max-width:790px) {
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+
+    }
+
+    &_group{
+
+
+        @media screen and (max-width:790px) {
+            
+            
+        }
+    
+    }
+
     &_group_list{
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 60px;
 
+        @media screen and (max-width:790px) {
+            margin-bottom: 25px;
+            gap: 75px;
+        }
+
+    }
+
+    &_logo{
+        
+    
     }
 
     &_btn{
