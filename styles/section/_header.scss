@@ -3,12 +3,13 @@
     max-width: 100%;
     width: 1490px;
     height: 1161px;
-    // background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
+    margin: 0 auto;
 
     @media screen and (max-width:790px) {
         background-position: left center;
+        width: 85%;
     }
 
     &_content{

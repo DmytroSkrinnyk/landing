@@ -355,10 +355,12 @@ button {
   width: 1490px;
   height: 1161px;
   background-position: right center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin: 0 auto; }
   @media screen and (max-width: 790px) {
     .header {
-      background-position: left center; } }
+      background-position: left center;
+      width: 85%; } }
   .header_content {
     width: 539px;
     max-width: 100%;
