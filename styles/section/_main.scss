@@ -52,10 +52,13 @@
         &_list{
             padding-top: 80px;
             display: flex;
-            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
             gap: 30px;
+
+            @media screen and (max-width:690px) {
+               flex-wrap: wrap;
+            }
             
 
             &_item{
