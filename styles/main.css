@@ -469,6 +469,11 @@ button {
       .nav_group_list {
         margin-bottom: 25px;
         gap: 75px; } }
+  @media screen and (max-width: 790px) {
+    .nav_logo {
+      -webkit-box-ordinal-group: 0;
+          -ms-flex-order: -1;
+              order: -1; } }
   .nav_btn {
     width: 160px;
     height: 26px;

@@ -120,7 +120,9 @@
     }
 
     &_logo{
-        
+        @media screen and (max-width:790px) {
+            order: -1;
+        }
     
     }
 
