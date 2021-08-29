@@ -1,7 +1,7 @@
 .header{
     background-image:url(../images/designer.png) ;
     max-width: 100%;
-    width: 1490px;
+    width: 1441px;
     height: 1161px;
     background-position: right center;
     background-repeat: no-repeat;
@@ -115,6 +115,10 @@
         @media screen and (max-width:790px) {
             margin-bottom: 25px;
             gap: 75px;
+        }
+
+        &_link{
+            color: #505F98
         }
 
     }

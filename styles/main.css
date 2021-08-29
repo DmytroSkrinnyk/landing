@@ -352,7 +352,7 @@ button {
 .header {
   background-image: url(../images/designer.png);
   max-width: 100%;
-  width: 1490px;
+  width: 1441px;
   height: 1161px;
   background-position: right center;
   background-repeat: no-repeat;
@@ -469,6 +469,8 @@ button {
       .nav_group_list {
         margin-bottom: 25px;
         gap: 75px; } }
+    .nav_group_list_link {
+      color: #505F98; }
   @media screen and (max-width: 790px) {
     .nav_logo {
       -webkit-box-ordinal-group: 0;
@@ -577,6 +579,8 @@ button {
         color: #5D6970; }
 
 .features {
+  background: #FBFBFD;
+  width: 1441px;
   padding-top: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -585,12 +589,13 @@ button {
       flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  margin: 0 auto; }
   .features_brooke {
-    background-image: url(../images/brooke.png);
+    background-image: url(../images/brooketwo.png);
     max-width: 100%;
-    width: 701px;
-    height: 877px;
+    width: 515px;
+    height: 824px;
     background-position: left center;
     background-repeat: no-repeat; }
     @media screen and (max-width: 1350px) {
@@ -674,9 +679,7 @@ button {
         color: #5D6970; }
 
 .footer {
-  padding: 42px 0 0;
-  background: #E7ECFF;
-  margin-top: -25px; }
+  background: #E7ECFF; }
   .footer_top {
     padding: 67px 0 47px;
     border-bottom: solid 1px #CDD1D4;
@@ -714,11 +717,13 @@ button {
       font-size: 12px;
       text-align: center;
       color: #ffffff; }
-    @media screen and (max-width: 790px) {
-      .footer_top_span {
-        -webkit-box-ordinal-group: 2;
-            -ms-flex-order: 1;
-                order: 1; } }
+    .footer_top_span {
+      color: #939EA4; }
+      @media screen and (max-width: 790px) {
+        .footer_top_span {
+          -webkit-box-ordinal-group: 2;
+              -ms-flex-order: 1;
+                  order: 1; } }
   .footer_bottom {
     padding: 24px 0 32px;
     display: -webkit-box;
@@ -756,6 +761,8 @@ button {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
+      .footer_bottom_list_link {
+        color: #929ECC; }
       .footer_bottom_list_link:hover {
         color: #37447E; }
     .footer_bottom_social_list {
